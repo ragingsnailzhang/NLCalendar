@@ -40,7 +40,7 @@
         _calendarView.layer.masksToBounds = YES;
         _calendarView.isHaveAnimation = YES;
         _calendarView.isCanScroll = YES;
-        _calendarView.isShowLastAndNextBtn = NO;
+        _calendarView.isShowLastAndNextBtn = YES;
         _calendarView.isShowLastAndNextDate = NO;
         _calendarView.isFutureCanClick = NO;
         _calendarView.todayTitleColor =[UIColor redColor];
