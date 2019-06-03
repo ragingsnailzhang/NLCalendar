@@ -49,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA26EDBE228E498900D9AD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA26EDC8228E4B0700D9AD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA57F02420FD862A006210A6 /* NSDate+NLCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NLCalendar.m"; sourceTree = "<group>"; };
 		CA57F02520FD862A006210A6 /* NSDate+NLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NLCalendar.h"; sourceTree = "<group>"; };
 		CA57F02720FD862A006210A6 /* calendar_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar_right@3x.png"; sourceTree = "<group>"; };
@@ -114,6 +116,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA26EDBD228E498900D9AD6A /* NLCalendarSource */ = {
+			isa = PBXGroup;
+			children = (
+				CA26EDBE228E498900D9AD6A /* Info.plist */,
+			);
+			path = NLCalendarSource;
+			sourceTree = "<group>";
+		};
+		CA26EDC7228E4B0700D9AD6A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CA26EDC8228E4B0700D9AD6A /* Info.plist */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		CA57F02220FD862A006210A6 /* NLCalendar */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +207,8 @@
 				CAC85FF620F852E10027F4E2 /* NLCalendar */,
 				CAC8600F20F852E30027F4E2 /* NLCalendarTests */,
 				CAC8601A20F852E30027F4E2 /* NLCalendarUITests */,
+				CA26EDBD228E498900D9AD6A /* NLCalendarSource */,
+				CA26EDC7228E4B0700D9AD6A /* Calendar */,
 				CAC85FF520F852E10027F4E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -556,6 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5MTK9MWCG;
 				INFOPLIST_FILE = NLCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5MTK9MWCG;
 				INFOPLIST_FILE = NLCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
